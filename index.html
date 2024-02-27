@@ -26,6 +26,13 @@
     </div>
 
     <script src="coop.js"></script>
+    <script>
+        // Verifica se a página atual não é a página de login
+        if (window.location.pathname !== '/index.html') {
+            // Redireciona para a página de login
+            window.location.href = '/index.html';
+        }
+    </script>
 </body>
 
 </html>
